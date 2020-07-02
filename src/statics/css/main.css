@@ -1,0 +1,75 @@
+.summary-holder,
+.switch {
+    text-align: center;
+    margin: 15px;
+}
+
+.summary-holder h2 {
+    border-bottom: 1px solid #262626;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.user-data-table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.user-data-table thead tr {
+    border: 1px solid blue;
+}
+
+.user-data-table td,
+.user-data-table th {
+    padding: 5px;
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination .right ul {
+    width: 100%;
+    display: inline-block;
+}
+
+.pagination .right ul li {
+    cursor: pointer;
+    float: left;
+    padding: 3px 6px;
+    margin: 0 5px;
+    list-style-type: none;
+    border: 1px solid #000;
+}
+
+.pagination .right ul li.active {
+    color: blue;
+    border: 1px solid blue;
+}
+
+.download-csv {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.download-csv button {
+    border: none;
+    padding: 10px;
+    border: 0.6px solid hotpink;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-csv button:hover {
+    background: hotpink;
+    transition: background ease-in-out 0.3s;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
